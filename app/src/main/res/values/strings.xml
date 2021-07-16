@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">WhatsappClone</string>
+    <string name="verification_tv">Please enter your mobile number.You will get a SMS including a Verification Code</string>
+    <string name="verify_number">Verify %s</string>
+    <string name="waiting_text">Waiting to automatically detect an SMS sent to %s Wrong Number?</string>
+    <string name="second_remaining">Seconds Remaining: %d</string>
+</resources>

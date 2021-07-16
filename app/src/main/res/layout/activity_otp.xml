@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".OtpActivity">
+    <TextView
+        android:id="@+id/verifytv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Verify +919860841349"
+        android:textStyle="bold"
+        android:textColor="@color/design_default_color_primary"
+        android:textSize="28sp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_marginTop="18dp"
+        />
+    <TextView
+        android:id="@+id/waitingTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Waiting to automatically detect an SMS sent to "
+        android:gravity="center"
+        android:padding="5dp"
+        android:textSize="18sp"
+        />
+    <TextView
+        android:id="@+id/counterTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Seconds Remaining:"
+        android:visibility="invisible"
+        android:gravity="center"
+        android:padding="5dp"
+        android:textSize="18sp"
+        android:layout_marginBottom="14dp"
+        />
+    <EditText
+        android:id="@+id/sentcodeEt"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:imeActionLabel="Send"
+        android:maxLength="6"
+        android:minLines="1"
+        android:letterSpacing="0.8"
+        android:layout_gravity="center"
+        android:hint="------"
+        android:textAlignment="center"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="Enter 6-digit code"
+        android:layout_gravity="center"
+        android:layout_marginBottom="15dp"
+        />
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/verifyBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:padding="14dp"
+        android:layout_margin="5dp"
+        android:layout_marginBottom="3dp"
+        android:text="Send Verification Code"
+        />
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/resendBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Resend SMS"
+        android:layout_marginTop="3dp"
+        android:layout_margin="5dp"
+        android:textSize="20sp"
+        android:padding="14dp"
+        />
+
+
+
+    
+
+</LinearLayout>
